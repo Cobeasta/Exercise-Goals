@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onCalendarClick(View v){
-        if(calendarView.getVisibility() == CalendarView.VISIBLE){   
+        if(calendarView.getVisibility() == CalendarView.VISIBLE){
             calendarView.setVisibility(View.GONE);
         }
         else{
